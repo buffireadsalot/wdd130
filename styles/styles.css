@@ -1,3 +1,14 @@
+:root {
+    --paragraph-font: 'Montserrat', Helvetica, sans-serif;
+    --heading-background-color: darkblue;
+    --heading-text-color: #f0ecec;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1 px solid rbg(0 0 0 / 0.1);
+    --aside-border: 1px solid rgb(0 0 0 / 0.2);
+    --aside-background-color: rgb(117, 128, 233);
+}
+
 nav{
     background-color: darkblue;
     padding: 10px;
@@ -9,8 +20,10 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: darkblue;
-   
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
 }
 main img {
     width: 150px;
@@ -20,15 +33,17 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 p {
+    font-family: var(--paragraph-font)
     padding: 0px;
 }
 aside {
     width: fit-content;
     margin: 1rem;
     padding: 10px;
-    background-color: rgb(117, 128, 233);
-    border: 1px solid black;
-    color: #333;
+    background-color: var(--aside-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
     box-shadow: 0 0 10px gray;
 }
 img {
