@@ -6,6 +6,7 @@
     --heading-background-color: #bcb8b1   ;
     --heading-text-color: #101a02;
     --heading-font: 'Rubik Dirt', Helvetica, sans-serif;
+    --heading2-font: 'Rubik Dirt', Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgba(76, 102, 99, 0.2);
     --aside-border: 1px solid #463f3a (76, 102, 99, 0.2);
@@ -82,6 +83,15 @@ h2 {
     font-family: var(--h2-font);
     font-weight: var(--h2-font-weight);
     padding: var(--padding);
+}
+
+h3 {
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+    text-align: center;
+    font-size: 80px;
 }
 
 main img {
