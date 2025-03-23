@@ -136,6 +136,10 @@ img {
     height: auto;
     
 }
+footer img {
+    width: 30px;
+    height: auto;
+}
 
 footer {
     margin-top: 15px;
