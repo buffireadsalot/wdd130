@@ -1,0 +1,167 @@
+/* =====================
+   Root Variables
+===================== */
+:root {
+    --paragraph-font: 'Poppins', 'Open Sans', sans-serif;
+    --heading-background-color: #bcb8b1   ;
+    --heading-text-color: #101a02;
+    --heading-font: 'Rubik Dirt', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgba(76, 102, 99, 0.2);
+    --aside-border: 1px solid #463f3a (76, 102, 99, 0.2);
+    --aside-background-color: #e0afa0 ;
+    --pagebackground-color: #f4f3ee ;
+    --photo-font: 'Open Sans', sans-serif;
+    --photo-font-weight: 400;
+    --photo-heading-color: #8a817c;
+    --h2-font: 'Poppins', sans-serif;
+    --h2-font-weight: 400;
+}
+
+/* =====================
+   Font Classes
+===================== */
+.open-sans-regular {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.rubik-dirt-regular {
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* =====================
+   Page Layout
+===================== */
+body {
+    background-color: var(--pagebackground-color);
+    font-family: var(--paragraph-font);
+}
+
+nav {
+    background-color: var(--heading-background-color);
+    padding: 10px;
+    font-family: var(--heading-font);
+}
+
+h1 {
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+    text-align: center;
+    font-size: 120px;
+}
+
+h2 {
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--h2-font);
+    font-weight: var(--h2-font-weight);
+    padding: var(--padding);
+}
+
+main img {
+    width: 450px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* or any height */
+}
+
+div.hero {
+    background-color: var(--pagebackground-color);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    padding: 0;
+}
+
+aside {
+    width: fit-content;
+    margin: 1rem;
+    padding: var(--padding);
+    background-color: var(--aside-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--photo-font);
+    font-weight: var(--photo-font-weight);
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid white;
+    text-align: center;
+}
+
+/* =====================
+   Media Queries
+===================== */
+@media (max-width: 768px) {
+    nav {
+        padding: 5px;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    main img {
+        width: 100px;
+    }
+
+    aside {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
