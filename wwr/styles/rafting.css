@@ -4,7 +4,8 @@
 :root {
     --paragraph-font: 'Poppins', 'Open Sans', sans-serif;
     --heading-background-color: #bcb8b1   ;
-    --heading-text-color: #101a02;
+    --heading-text-color: rgba(255, 255, 255, 0.932);
+    --heading-shadow: 0 0 5px #463f3a;
     --heading-font: 'Rubik Dirt', Helvetica, sans-serif;
     --heading2-font: 'Rubik Dirt', Helvetica, sans-serif;
     --padding: 1rem;
@@ -73,6 +74,7 @@ h1 {
     color: var(--heading-text-color);
     font-family: var(--heading-font);
     padding: var(--padding);
+    text-shadow: var(--heading-shadow);
     text-align: center;
     font-size: 120px;
 }
@@ -90,6 +92,7 @@ h3 {
     color: var(--heading-text-color);
     font-family: var(--heading-font);
     padding: var(--padding);
+    text-shadow: var(--heading-shadow);
     text-align: center;
     font-size: 80px;
 }
