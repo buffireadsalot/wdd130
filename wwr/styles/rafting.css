@@ -1,15 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* =====================
-   Root Variables
-===================== */
 :root {
     --paragraph-font: 'Poppins', 'Open Sans', sans-serif;
-    --heading-background-color: #bcb8b1   ;
+    --heading-background-color: #bcb8b1;
     --heading-text-color: rgba(255, 255, 255, 0.932);
     --heading-shadow: 0 0 5px #463f3a;
     --heading-font: 'Rubik Dirt', Helvetica, sans-serif;
@@ -17,8 +14,8 @@
     --padding: 1rem;
     --border: 1px solid rgba(76, 102, 99, 0.2);
     --aside-border: 1px solid #463f3a (76, 102, 99, 0.2);
-    --aside-background-color: #e0afa0 ;
-    --pagebackground-color: #f4f3ee ;
+    --aside-background-color: #e0afa0;
+    --pagebackground-color: #f4f3ee;
     --photo-font: 'Open Sans', sans-serif;
     --photo-font-weight: 400;
     --photo-heading-color: #8a817c;
@@ -26,44 +23,6 @@
     --h2-font-weight: 400;
 }
 
-/* =====================
-   Font Classes
-===================== */
-.open-sans-regular {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-variation-settings: "width" 100;
-}
-
-.poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-}
-
-.rubik-dirt-regular {
-    font-family: "Rubik Dirt", system-ui;
-    font-weight: 800;
-    font-style: normal;
-}
-
-/* =====================
-   Page Layout
-===================== */
 body {
     background-color: var(--pagebackground-color);
     font-family: var(--paragraph-font);
@@ -93,7 +52,8 @@ h2 {
     text-shadow: var(--heading-shadow);
     text-align: center;
     font-size: 60px;
-    }
+}
+
 h3 {
     background-color: var(--heading-background-color);
     color: var(--heading-text-color);
@@ -109,24 +69,19 @@ img {
     height: auto;
 }
 
-
 main img {
-    align-items: center;
-    width: 1000px;
+    width: 100%;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    
 }
-
-/* Class Selectors */
 
 .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px; /* or any height */
+    height: 500px;
 }
 
 div.hero {
@@ -137,23 +92,23 @@ div.hero {
     font-style: italic;
     font-weight: 100;
     font-size: 1.5rem;
+    position: relative;
 }
-div.hero {
-    position: center;
-  }
-  
-  div.hero h1,
-  div.hero article {
-    position: center;
-    top: 20px; /* Adjust as needed */
-    bottom: 20px;
-  }
+
 .hero img {
-    
+    display: block;
+    margin: 0 auto;
     width: 500px;
     height: auto;
 }
-/* Main Properties */
+
+.hero article img {
+    float: right;
+    margin-left: 1rem;
+    width: 250px;
+    box-shadow: 0 0 10px gray;
+}
+
 p {
     font-family: var(--paragraph-font);
     padding: 0;
@@ -182,9 +137,6 @@ footer {
     text-align: center;
 }
 
-/* =====================
-   Media Queries
-===================== */
 @media (max-width: 768px) {
     nav {
         padding: 5px;
@@ -203,4 +155,3 @@ footer {
         width: 90%;
         margin: 0 auto;
     }
-}
