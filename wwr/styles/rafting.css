@@ -12,8 +12,8 @@
     --heading-font: 'Rubik Dirt', Helvetica, sans-serif;
     --heading2-font: 'Rubik Dirt', Helvetica, sans-serif;
     --padding: 1rem;
-    --border: 1px solid rgba(76, 102, 99, 0.2);
-    --aside-border: 1px solid #463f3a (76, 102, 99, 0.2);
+    --border: 2px solid rgba(76, 102, 99, 0.2);
+    --aside-border: 2px solid #463f3a (76, 102, 99, 0.2);
     --aside-background-color: #e0afa0;
     --pagebackground-color: #f4f3ee;
     --photo-font: 'Open Sans', sans-serif;
@@ -155,3 +155,4 @@ footer {
         width: 90%;
         margin: 0 auto;
     }
+}
