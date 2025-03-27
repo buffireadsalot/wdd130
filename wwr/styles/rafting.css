@@ -105,13 +105,14 @@ h3 {
 }
 
 img {
-    width: 550px;
+    width: 1000px;
     height: auto;
 }
 
 
 main img {
-    width: 100%;
+    align-items: center;
+    width: 1000px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -143,9 +144,9 @@ div.hero {
   
   div.hero h1,
   div.hero article {
-    position: absolute;
+    position: center;
     top: 20px; /* Adjust as needed */
-    left: 20px;
+    bottom: 20px;
   }
 .hero img {
     
