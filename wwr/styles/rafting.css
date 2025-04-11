@@ -82,7 +82,7 @@ nav ul.nav-flex li a:hover {
 
 /* === HISTORY SECTION === */
 .history {
-  background-color: #fff;
+  background-color: #e1eff6;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   font-family: 'Open Sans', sans-serif;
@@ -200,6 +200,7 @@ footer {
   text-align: center;
   position: relative;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 footer .social-icons {
@@ -210,8 +211,8 @@ footer .social-icons {
 }
 
 footer .social-icons img {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: auto;
 }
 
 /* === HOMEPAGE HERO IMAGE === */
