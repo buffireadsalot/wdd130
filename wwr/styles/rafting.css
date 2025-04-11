@@ -9,7 +9,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #caf0f8;
   color: #333;
   max-width: 1200px;
   margin: 0 auto;
@@ -21,7 +21,7 @@ body {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  background-color: #c9c5f6;
+  background-color: #48cae4;
   padding: 1rem;
   gap: 1rem;
   font-family: 'Rubik Dirt', cursive;
@@ -54,7 +54,7 @@ nav ul.nav-flex li a {
 }
 
 nav ul.nav-flex li a:hover {
-  background-color: #d6d6f0;
+  background-color: #ffa000;
 }
 
 /* === HERO SECTION === */
@@ -75,7 +75,7 @@ nav ul.nav-flex li a:hover {
   grid-template-columns: 2fr 1fr;
   align-items: center;
   gap: 2rem;
-  background-color: white;
+  background-color: #e1eff6;
   padding: 1rem;
   border: 1px solid #ccc;
 }
@@ -102,7 +102,7 @@ nav ul.nav-flex li a:hover {
 
 /* === ADVENTURE GALLERY === */
 .adventure {
-  background-color: #fff;
+  background-color: #48cae4;
   padding: 2rem 1rem;
   font-family: 'Open Sans', sans-serif;
 }
@@ -131,7 +131,7 @@ nav ul.nav-flex li a:hover {
   font-weight: bold;
 }
 .contact-info, .employees, .contact-form {
-  background-color: #fff;
+  background-color: #e1eff6;
   padding: 2rem;
   margin-bottom: 2rem;
   border-radius: 8px;
@@ -157,7 +157,7 @@ nav ul.nav-flex li a:hover {
 .employee-profiles img {
   width: 150px;
   border-radius: 50%;
-  border: 3px solid #c9c5f6;
+  border: 3px solid #e1eff6;
 }
 
 .contact-form form {
@@ -179,7 +179,7 @@ nav ul.nav-flex li a:hover {
 }
 
 .contact-form button {
-  background-color: #c9c5f6;
+  background-color: #48cae4;
   color: #333;
   font-weight: bold;
   border: none;
@@ -189,14 +189,14 @@ nav ul.nav-flex li a:hover {
 }
 
 .contact-form button:hover {
-  background-color: #b0abe0;
+  background-color: #ffa000;
 }
 
 /* === FOOTER === */
 footer {
   margin-top: 2rem;
   padding: 1rem;
-  background-color: #c9c5f6;
+  background-color: #48cae4;
   text-align: center;
   position: relative;
   font-family: 'Poppins', sans-serif;
@@ -234,7 +234,7 @@ footer .social-icons img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #e1eff6;
   font-size: 2.5rem;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 1rem 2rem;
@@ -245,7 +245,7 @@ footer .social-icons img {
 
 /* === NEWSLETTER SIGNUP === */
 .newsletter {
-  background-color: #e6f0ff;
+  background-color: #e1eff6;
   padding: 2rem;
   text-align: center;
   border-radius: 8px;
@@ -274,7 +274,7 @@ footer .social-icons img {
 }
 
 .newsletter button {
-  background-color: #c9c5f6;
+  background-color: #48cae4;
   font-weight: bold;
   color: #333;
   border: none;
@@ -285,12 +285,12 @@ footer .social-icons img {
 }
 
 .newsletter button:hover {
-  background-color: #b0abe0;
+  background-color: #ffa000;
 }
 
 /* === CALL TO ACTION SECTION === */
 .cta {
-  background-color: #fff8e1;
+  background-color: #e1eff6;
   padding: 2rem;
   text-align: center;
   border-radius: 8px;
@@ -310,7 +310,7 @@ footer .social-icons img {
 .cta .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background-color: #ffb300;
+  background-color: #48cae4;
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -327,7 +327,7 @@ footer .social-icons img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  background-color: #ffffff;
+  background-color: #48cae4;
   padding: 2rem;
   border-radius: 8px;
   margin-bottom: 2rem;
